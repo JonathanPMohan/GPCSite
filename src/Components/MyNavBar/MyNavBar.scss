@@ -1,4 +1,15 @@
 .nav-bar {
   background-color: black;
-  color: greenyellow;
+}
+
+.nav-link {
+  color: purple !important;
+}
+
+.nav-link.active {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: orange !important;
 }
