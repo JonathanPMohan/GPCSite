@@ -1,15 +1,21 @@
 .nav-bar {
-  background-color: black;
+  background-color: white;
+  color: black;
+  font-family: 'Vollkorn SC', serif;
 }
 
 .nav-link {
-  color: purple !important;
+  color: black !important;
 }
 
 .nav-link.active {
-  color: yellow !important;
+  color: grey!important;
 }
 
 .nav-link:hover {
-  color: orange !important;
+  color: turquoise !important;
+}
+
+.nav-bar-brand {
+  color: black;
 }

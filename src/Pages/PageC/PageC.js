@@ -12,7 +12,7 @@ class PageC extends React.Component {
   render() {
     return (
       <div className='pageC w-100'>
-        <h2>WELCOME TO PAGE C</h2>
+        <h2>VISIT ENGELHEIM</h2>
         <div className='PageAWrap'>
         </div>
         <div className="row justify-content-center"></div>

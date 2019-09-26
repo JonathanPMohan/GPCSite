@@ -8,6 +8,7 @@ import PageB from '../Pages/PageB/PageB';
 import PageC from '../Pages/PageC/PageC';
 import PageD from '../Pages/PageD/PageD';
 import PageE from '../Pages/PageE/PageE';
+import PageF from '../Pages/PageF/PageF';
 import MyNavBar from '../Components/MyNavBar/MyNavBar';
 import './App.scss';
 
@@ -22,11 +23,12 @@ function App() {
               <Route path='/home'
                 component={() => <Home />} />
               <Route path='/' exact component={() => <Home />} />
-              <Route path='/pageA' component={() => <PageA />} />
-              <Route path='/pageB' component={() => <PageB />} />
-              <Route path='/pageC' component={() => <PageC />} />
-              <Route path='/pageD' component={() => <PageD />} />
-              <Route path='/pageE' component={() => <PageE />} />
+              <Route path='/AboutUs' component={() => <PageA />} />
+              <Route path='/OurWines' component={() => <PageB />} />
+              <Route path='/VisitUs' component={() => <PageC />} />
+              <Route path='/Events' component={() => <PageD />} />
+              <Route path='/Weddings' component={() => <PageE />} />
+              <Route path='/Awards' component={() => <PageF />} />
 
             </Switch>
           </div>
