@@ -1,8 +1,8 @@
 import React from 'react';
-import './PageB.scss';
+import './PageF.scss';
 
 
-class PageB extends React.Component {
+class PageF extends React.Component {
   state = {
   }
 
@@ -11,8 +11,8 @@ class PageB extends React.Component {
 
   render() {
     return (
-      <div className='pageB w-100'>
-        <h2>ENGELHEIM WINES</h2>
+      <div className='pageF w-100'>
+        <h2>ENGELHEIM AWARDS</h2>
         <div className='PageAWrap'>
         </div>
         <div className="row justify-content-center"></div>
@@ -21,4 +21,4 @@ class PageB extends React.Component {
   }
 }
 
-export default PageB;
+export default PageF;

@@ -9,6 +9,9 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+
+import engSmall from '../../Images/eng_header_logo.png';
+
 import './MyNavBar.scss';
 
 class MyNavbar extends React.Component {
@@ -25,25 +28,28 @@ class MyNavbar extends React.Component {
   render() {
     return (
       <div className="nav-bar">
-        <Navbar color="blue" dark expand="md">
-          <NavbarBrand href="/"><strong>GPCSite</strong></NavbarBrand>
+        <Navbar color="" dark expand="md">
+          <NavbarBrand href="/"><img src={engSmall} alt="small_logo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={RRNavLink} to="/pageA"><strong>A</strong></NavLink>
+                <NavLink tag={RRNavLink} to="/AboutUs"><strong>ABOUT US</strong></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={RRNavLink} to="/pageB"><strong>B</strong></NavLink>
+                <NavLink tag={RRNavLink} to="/OurWines"><strong>OUR WINES</strong></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={RRNavLink} to="/pageC"><strong>C</strong></NavLink>
+                <NavLink tag={RRNavLink} to="/VisitUs"><strong>VISIT US</strong></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={RRNavLink} to="/pageD"><strong>D</strong></NavLink>
+                <NavLink tag={RRNavLink} to="/Events"><strong>EVENTS</strong></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={RRNavLink} to="/pageE"><strong>E</strong></NavLink>
+                <NavLink tag={RRNavLink} to="/Weddings"><strong>WEDDINGS</strong></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink tag={RRNavLink} to="/Awards"><strong>AWARDS</strong></NavLink>
               </NavItem>
             </Nav>
 
