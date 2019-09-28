@@ -6,3 +6,23 @@
   background-attachment: fixed;
   min-height: 100vh;
 }
+
+.about-text {
+  width: 78%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 16pt;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(231, 235, 231, 0.75);
+  color: black;
+  padding: 2%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 2%;
+}
+
+.header-image {
+  margin-top: 8%;
+}

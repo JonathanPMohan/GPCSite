@@ -1,11 +1,15 @@
 .nav-bar {
   background-color: white;
   color: black;
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Dosis', sans-serif;
+  position:fixed;
+  width:100%;
+    z-index:100;
 }
 
 .nav-link {
   color: black !important;
+  margin-right: 5px;
 }
 
 .nav-link.active {

@@ -1,4 +1,6 @@
 import React from 'react';
+
+import visitUs from '../../Images/visit_us.png';
 import './PageC.scss';
 
 
@@ -12,8 +14,8 @@ class PageC extends React.Component {
   render() {
     return (
       <div className='pageC w-100'>
-        <h2>VISIT ENGELHEIM</h2>
         <div className='PageAWrap'>
+          <img src={visitUs} className='header-image' alt="visit_us" />
           <p>
 
             <h2>Engelheim Vineyards</h2>
